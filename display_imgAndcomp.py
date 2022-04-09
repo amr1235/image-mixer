@@ -17,13 +17,13 @@ class DisplayImgComp():
         #resize method 
         self.resizeMethod = None
         # path of img1
-        path1 = os.path.realpath('../images/test1.jpg')
+        path1 = os.path.realpath('images/test1.jpg')
         # path of img2
-        path2 = os.path.realpath('../images/test2.jpg')
+        path2 = os.path.realpath('images/test2.jpg')
         # path of img1 component
-        path3 = os.path.realpath('../images/img1comp.png')
+        path3 = os.path.realpath('images/img1comp.png')
         # path of img1 component
-        path4 = os.path.realpath('../images/img2comp.png')
+        path4 = os.path.realpath('images/img2comp.png')
 
         self.paths = [path1,path2,path3,path4] 
         image_arr1=mpimg.imread(path1)
